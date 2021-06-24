@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "@xeho91/prettier-config",
+  "version": "0.1.0",
+  "description": "xeho91's Prettier reusable configuration.",
+  "keywords": [
+    "prettier",
+    "formatter",
+    "CSS",
+    "Svelte"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "author": {
+    "name": "Mateusz Kadlubowski",
+    "email": "xeho91@pm.me",
+    "url": "https://xeho91.com/"
+  },
+  "homepage": "https://github.com/xeho91/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeho91/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xeho91/prettier-config/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "@types/prettier": "^2.3.0",
+    "prettier": "^2.3.1"
+  },
+  "peerDependencies": {
+    "prettier": "^2.3.1"
+  },
+  "dependencies": {
+    "prettier-plugin-svelte": "^2.3.1"
+  }
+}

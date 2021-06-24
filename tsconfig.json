@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+
+    "outDir": "./lib/",
+
+    "declaration": false,
+
+    "types": ["node", "prettier"],
+
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules/"]
+}

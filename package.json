@@ -32,11 +32,14 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "lint": "eslint ./src/**/*.ts"
   },
   "devDependencies": {
     "@types/node": "^15.12.4",
     "@types/prettier": "^2.3.0",
+    "@xeho91/eslint-config": "^0.4.2",
+    "eslint": "^7.29.0",
     "prettier": "^2.3.1"
   },
   "peerDependencies": {

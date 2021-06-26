@@ -31,6 +31,7 @@
     "lib/**/*"
   ],
   "scripts": {
+    "clean": "rimraf ./lib",
     "build": "tsc",
     "dev": "tsc --watch",
     "lint": "eslint ./src/**/*.ts"
@@ -40,12 +41,16 @@
     "@types/prettier": "^2.3.0",
     "@xeho91/eslint-config": "^0.4.2",
     "eslint": "^7.29.0",
-    "prettier": "^2.3.1"
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.4"
   },
   "peerDependencies": {
     "prettier": "^2.3.1"
   },
   "dependencies": {
+    "deepmerge": "^4.2.2",
     "prettier-plugin-svelte": "^2.3.1"
   }
 }

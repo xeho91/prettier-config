@@ -11,7 +11,8 @@
 
     "types": ["node", "prettier"],
 
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "esModuleInterop": true
   },
   "exclude": ["node_modules/"]
 }
